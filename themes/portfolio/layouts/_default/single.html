@@ -1,0 +1,13 @@
+{{ define "main" }}
+{{ .Title }}
+
+{{ with .Resources.GetMatch "main.jpg" }}
+    {{ $image := . }}
+    {{ $resized := .Resize "600x q75" }}
+
+    <div class="o-gallery__item">
+       <img src="{{ $resized.RelPermalink }}" alt="{{ .Title }}">
+    </div>
+{{ end }}
+
+{{ end }}

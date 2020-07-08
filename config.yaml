@@ -1,0 +1,5 @@
+baseURL: https://portfolio.brinckmann.no
+languageCode: no-nb
+title: Portfolio Benjamin Brinckmann
+description: Personlig portofølje
+theme: "portfolio"

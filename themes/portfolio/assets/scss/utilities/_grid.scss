@@ -1,0 +1,28 @@
+.u-grid {
+    @media screen and (min-width: $bp-small) {
+        display: grid;
+        min-height: 100%;
+        grid-template:
+            "header" fit-content(100%)
+            "main" 1fr
+            "footer" fit-content(100%)
+            / 1fr;
+
+        &__header {
+            display: grid;
+            grid-template:
+                "logo" 1fr
+                "nav" 1fr
+                / 1fr;
+        }
+    }
+
+    @media screen and (min-width: $bp-medium) {
+        &__header {
+            grid-template:
+                "logo nav" / 
+                580px 1fr;
+        }
+    }
+
+}

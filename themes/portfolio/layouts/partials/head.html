@@ -1,0 +1,11 @@
+<head>
+    <meta charset="utf-8">
+    <title>{{ block "title" . }}
+        {{ .Site.Title }}
+        {{ end }}
+    </title>
+
+    {{ $options := (dict "targetPath" "styles.css" "outputStyle" "compressed") -}}
+	{{ $style := resources.Get "scss/main.scss" | resources.ToCSS $options | resources.Fingerprint -}}
+	<link href="{{ $style.RelPermalink }}" rel="stylesheet" media="all">
+</head>

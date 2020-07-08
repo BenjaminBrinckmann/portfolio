@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+{{ block "head" . }}
+    {{ partial "head" . }}
+{{ end }}
+<body>
+    <div class="u-grid">
+        
+        <div class="o-header u-contain u-grid__header">
+            {{ block "header" . }}
+            <div class="logo"><a href="/"><img src="logoMain.png" class="logo__main"></a></div> 
+            {{/*  <div class="logo"><h1>Benjamin Brinckmann</h1></div>  */}}
+            <div class="m-nav"><p>Kontakt</p></div>
+            {{ end }}
+        </div>
+    
+        <div class="o-gallery o-main u-contain u-grid__main">          
+        {{ block "main" . }}
+            
+            {{ with .Site.GetPage "section" "portfolio" }}
+            
+                {{ range .Pages }}
+                {{ $singleURL := .RelPermalink }}
+                {{ $title := .Title }}
+
+                    {{ .Content }}
+                    
+                    {{ with .Resources.GetMatch "main.jpg" }}
+                        {{ $image := . }}
+                        {{ $resized := .Resize "600x q75" }}
+
+                    <div class="o-gallery__item{{ with $.Param "span" }} o-gallery__span-{{.}}{{end}}">
+                        <a href="{{ $singleURL }}"><img src="{{ $resized.RelPermalink }}" alt="{{ $title }}"></a>
+                    </div>
+                    {{ end }}
+
+                {{ end }} 
+
+            {{ end }}
+            
+        {{ end }}
+        </div>
+        <div class="o-footer u-contain u-grid__footer">
+            {{ block "footer" . }}
+            Dette er en footer
+            {{ end }}
+        </div>
+
+    </div>
+</body>
+</html>

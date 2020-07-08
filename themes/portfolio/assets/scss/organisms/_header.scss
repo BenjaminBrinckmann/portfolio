@@ -1,0 +1,8 @@
+.o-header {
+    text-align: center;
+
+    @media screen and (min-width: $bp-medium) {
+        text-align: left;
+        grid-area: header;
+    }
+}
