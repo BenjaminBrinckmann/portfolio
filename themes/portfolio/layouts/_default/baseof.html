@@ -22,6 +22,7 @@
                 {{ range .Pages }}
                 {{ $singleURL := .RelPermalink }}
                 {{ $title := .Title }}
+                {{ $span := .Params.span }}
 
                     {{ .Content }}
                     
@@ -29,7 +30,7 @@
                         {{ $image := . }}
                         {{ $resized := .Resize "600x q75" }}
 
-                    <div class="o-gallery__item{{ with $.Param "span" }} o-gallery__span-{{.}}{{end}}">
+                    <div class="o-gallery__item{{ with $span }} -span-{{.}}{{end}}">
                         <a href="{{ $singleURL }}"><img src="{{ $resized.RelPermalink }}" alt="{{ $title }}"></a>
                     </div>
                     {{ end }}

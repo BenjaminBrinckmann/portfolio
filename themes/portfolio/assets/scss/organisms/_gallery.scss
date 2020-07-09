@@ -1,32 +1,38 @@
 .o-gallery {
     @media screen and (min-width: $bp-small) {
-        column-count: 2;
-    }
-
-    @media screen and (min-width: $bp-medium) {
-        column-count: 3;
+        display: grid;
+        grid-template-columns: repeat(6, auto);
+        grid-auto-rows: auto;
+        grid-auto-flow: row;
+        gap: $base;
     }
 
     &__item {
         display: inline-block;
         width: 100%;
+        vertical-align: bottom;
 
         img {
             width: 100%;
-            box-shadow: #dddddd 2px 2px 6px;
-            // border-radius: 5px;
-            // border: lightgray 6px solid;
+            box-shadow: #dddddd 1px 1px 5px;
         }
 
         @media screen and (min-width: $bp-small) {
-            padding-bottom: $base;
+            grid-area: span 2 / span 2;
+            max-height: 20em;
+            object-fit: cover;
         }
-    }
 
-    &__span {
-        &-2 {
-            background-color: red;
-            border: green 5px;
+        &.-span {
+            &-1 {
+                border: 3px solid green;
+                grid-area: span 2 / span 2;
+            }
+
+            &-2 {
+                border: 3px solid red;
+                grid-area: span 1 / span 2;
+            }
         }
     }
 }
