@@ -1,7 +1,7 @@
 ---
 title: "Concept art: krystaller"
 date: 2020-06-09
-span: 2
+span: 2h
 categories:
     - svart hvit
 tags:

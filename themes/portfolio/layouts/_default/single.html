@@ -1,13 +1,21 @@
 {{ define "main" }}
-{{ .Title }}
+<div class="u-grid o-main u-contain o-imageViewer">
 
-{{ with .Resources.GetMatch "main.jpg" }}
-    {{ $image := . }}
-    {{ $resized := .Resize "600x q75" }}
+    {{ with .Resources.GetMatch "main.jpg" }}
+        {{ $image := . }}
+        {{ $resized := .Resize "1200x q75" }}
 
-    <div class="o-gallery__item">
-       <img src="{{ $resized.RelPermalink }}" alt="{{ .Title }}">
+        <div class="o-imageViewer__image">
+            <img src="{{ $resized.RelPermalink }}" alt="{{ .Title }}">
+        </div>
+    {{ end }}
+
+    <div class="o-imageViewer__meta">
+        <h2>{{ .Title }}</h2>
+        <p>{{ .Description }}</p>
+        <time>{{ .Date.Format "2006.02.01"}}</time>
     </div>
+
+</div>
 {{ end }}
 
-{{ end }}
