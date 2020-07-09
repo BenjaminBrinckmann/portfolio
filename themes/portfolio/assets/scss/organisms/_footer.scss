@@ -1,0 +1,10 @@
+.o-footer {
+    text-align: center;
+    background-color: grey;
+    padding: 2em 0;
+    min-width: 100%;
+    
+    @media screen and (min-width: $bp-medium) {
+        grid-area: footer;
+    }
+}
