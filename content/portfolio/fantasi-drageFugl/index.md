@@ -5,4 +5,5 @@ categories:
     - svart hvit
 tags:
     - fantasi
+span: 2h
 ---

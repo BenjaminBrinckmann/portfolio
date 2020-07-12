@@ -5,4 +5,5 @@ categories:
     - digital art
 tags:     
     - instruksjon
+span: 2h
 ---

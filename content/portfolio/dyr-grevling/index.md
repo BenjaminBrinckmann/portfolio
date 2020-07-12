@@ -1,8 +1,9 @@
 ---
 title: grevling
+date: 2017-03-22
 categories:
     - svart hvit
-date: 2017-03-22
 tags:
-    -dyr    
+    -dyr  
+span: 3w  
 ---

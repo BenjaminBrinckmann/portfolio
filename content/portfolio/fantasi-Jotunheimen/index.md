@@ -5,4 +5,5 @@ categories:
     - digital art
 tags:
     - fantasi
+span: 2h
 ---

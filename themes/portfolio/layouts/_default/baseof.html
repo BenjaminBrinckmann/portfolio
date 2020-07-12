@@ -10,7 +10,7 @@
             {{ block "header" . }}
             <div class="logo"><a href="/"><img src="/logoMain.png" class="logo__main"></a></div> 
             {{/*  <div class="logo"><h1>Benjamin Brinckmann</h1></div>  */}}
-            <div class="m-nav"><p>Kontakt</p></div>
+            <div class="m-nav o-imageViewer__nav"><p>benjamin@brinckmann.no</p><p>+47 48 45 06 69</p></div>
             {{ end }}
         </div>
     
@@ -28,7 +28,7 @@
                 
                 {{ with .Resources.GetMatch "main.jpg" }}
                     {{ $image := . }}
-                    {{ $resized := .Resize "650x q60" }}
+                    {{ $resized := .Resize "650x q75" }}
                     {{ $resizedXL := .Resize "1054x q65" }}
 
                 <div class="o-gallery__item{{ with $span }} -span-{{.}}{{end}}">

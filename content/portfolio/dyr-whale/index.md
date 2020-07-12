@@ -5,5 +5,5 @@ categories:
   - digital art
 tags:
   - dyr
-span: 4
+span: 3w
 ---

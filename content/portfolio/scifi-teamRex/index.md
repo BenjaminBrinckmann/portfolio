@@ -6,4 +6,5 @@ categories:
 tags:
     - sci fi
     - fantasi
+span: 3w
 ---

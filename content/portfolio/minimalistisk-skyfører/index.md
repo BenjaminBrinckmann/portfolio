@@ -6,4 +6,5 @@ categories:
 tags: 
     - minimalistisk
     - landskap
+span: 4
 ---

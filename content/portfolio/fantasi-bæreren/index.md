@@ -5,4 +5,5 @@ categories:
     - vannmaling
 tags:
     - fantasi
+span: 2h
 ---

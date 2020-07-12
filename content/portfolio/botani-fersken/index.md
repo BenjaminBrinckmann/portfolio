@@ -1,6 +1,9 @@
 ---
-date: 2018-10-09
+date: 2018-11-09
 title: fersken
 categories:
-    - botanisk
+    - vannmaling
+tags:
+    - botani
+span: 3w
 ---

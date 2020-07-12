@@ -5,4 +5,5 @@ categories:
     - svart hvit
 tags:
     - dyr
+span: 3w
 ---

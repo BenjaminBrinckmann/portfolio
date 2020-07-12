@@ -5,4 +5,5 @@ categories:
     - svart hvit
 tags: 
     - historisk
+span: 2h
 ---

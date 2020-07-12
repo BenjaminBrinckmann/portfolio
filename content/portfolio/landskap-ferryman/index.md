@@ -6,4 +6,5 @@ categories:
 tags:
     - landskap
     - fantasi
+span: 3w
 ---

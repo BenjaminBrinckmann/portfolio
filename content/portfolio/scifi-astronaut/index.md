@@ -8,4 +8,5 @@ categories:
 tags:
     - sci fi
     - fantasi
+span: 2h
 ---

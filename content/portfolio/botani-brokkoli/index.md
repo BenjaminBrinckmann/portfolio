@@ -2,5 +2,8 @@
 date: 2018-10-09
 title: brokkoli
 categories:
-    - botanisk
+    - vannmaling
+tags:
+    - botani
+span: 2h
 ---
