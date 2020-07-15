@@ -1,8 +1,7 @@
 ---
 title: Hare og 
 date: 2017-03-22
-categories:
-    - svart hvit
+categories: Svart Hvit
 tags:
     - dyr
 span: 3w

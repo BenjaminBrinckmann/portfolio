@@ -1,7 +1,6 @@
 .m-nav {
     
     @media screen and (min-width: $bp-medium) {
-        padding-right: $small;
         grid-area: nav;
         justify-self: right;
         align-self: center;

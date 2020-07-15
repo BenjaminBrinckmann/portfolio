@@ -1,0 +1,14 @@
+.o-listGalleries {
+    position: relative;
+    display: grid;
+    max-width: 100%;
+
+    &__category {
+        text-align: center;
+        
+        @media screen and (min-width: $bp-small) {
+            text-align: left;
+            margin-left: $base;
+        }
+    }
+}

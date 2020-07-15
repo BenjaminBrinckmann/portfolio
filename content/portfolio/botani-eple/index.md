@@ -1,8 +1,7 @@
 ---
 date: 2018-11-09
 title: eple
-categories:
-    - vannmaling
+categories: Aquarel
 tags:
     - botani
 span: 3w

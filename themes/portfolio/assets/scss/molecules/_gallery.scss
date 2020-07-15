@@ -1,0 +1,38 @@
+.m-gallery {
+    &__item {
+        img {
+            max-width: 100%;
+        }
+    }
+
+    @media screen and (min-width: $bp-small) {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: auto;
+        grid-gap: $smallest;
+        max-width: 98vw;
+        overflow: auto;
+
+        &__item {
+            display: inline-block;
+
+            img {
+                max-height: 20em;
+                max-width: none;
+            }
+        }
+        
+        &__fade {
+            position: absolute;
+            right: 0;
+            width: 10em;
+            height: 100%;
+            background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.9) 100%);
+        }
+
+        &__end {
+            width: 10em;
+            height: 100%;
+        }
+    }
+}

@@ -3,10 +3,9 @@ title: "Digital art: Astronaut"
 description: 
 date: 2020-03-11
 span: 2
-categories:
-    - digital art
+categories: Digital Art
 tags:
-    - sci fi
-    - fantasi
+  - sci fi
+  - fantasi
 span: 2h
 ---

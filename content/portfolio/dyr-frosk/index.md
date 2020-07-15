@@ -1,8 +1,7 @@
 ---
 date: 2019-04-26
 title: frosk
-categories:
-    - vannmaling
+categories: Aquarel
 tags: 
     - dyr
 span: 4

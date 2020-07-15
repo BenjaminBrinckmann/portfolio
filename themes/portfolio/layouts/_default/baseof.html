@@ -6,7 +6,7 @@
 <body>
     <div class="u-grid">
         
-        <div class="o-header u-contain u-grid__header">
+        <div class="o-header u-grid__header u-contain">
             {{ block "header" . }}
             <div class="logo"><a href="/"><img src="/logoMain.png" class="logo__main"></a></div> 
             {{/*  <div class="logo"><h1>Benjamin Brinckmann</h1></div>  */}}
@@ -15,40 +15,60 @@
         </div>
     
         {{ block "main" . }}
-        <div class="o-gallery o-main u-contain u-grid__main">          
         
-        {{ with .Site.GetPage "section" "portfolio" }}
+        <div class="o-main u-grid__main u-contain">        
         
-            {{ range .Pages }}
-            {{ $singleURL := .RelPermalink }}
-            {{ $title := .Title }}
-            {{ $span := .Params.span }}
+            {{ with .Site.GetPage "section" "portfolio" }}
+            
+                <div class="o-listGalleries">
+                    {{ range .Pages.GroupByParam "categories" }}
+                    
+                    <h1 class="o-listGalleries__category">{{ .Key }}</h1>
+                    
+                    <div class="m-gallery">
 
-                {{ .Content }}
-                
-                {{ with .Resources.GetMatch "main.jpg" }}
-                    {{ $image := . }}
-                    {{ $resized := .Resize "650x q75" }}
-                    {{ $resizedXL := .Resize "1054x q65" }}
+                    {{ range .Pages }}
+                        {{ $singleURL := .RelPermalink }}
+                        {{ $title := .Title }}
+                        {{ $span := .Params.span }}
+                        
+                            <div class="m-gallery__item{{ with $span }} -span-{{.}}{{end}}">
+                                {{/*  {{ .Title }}
+                                {{ .Content }}  */}}
 
-                <div class="o-gallery__item{{ with $span }} -span-{{.}}{{end}}">
-                    <a href="{{ $singleURL }}"><img src="
-                        {{- if eq $span 4 }}
-                        {{ $resizedXL.RelPermalink }}
-                        {{ else }}
-                        {{ $resized.RelPermalink }}
+                                {{ with .Resources.GetMatch "main.jpg" }}
+                                    {{ $image := . }}
+                                    {{ $resized := .Resize "650x q75" }}
+                                    {{ $resizedXL := .Resize "1054x q65" }}
+
+                                    <a href="{{ $singleURL }}"><img src="
+                                        {{- if eq $span 4 }}
+                                        {{ $resizedXL.RelPermalink }}
+                                        {{ else }}
+                                        {{ $resized.RelPermalink }}
+                                        {{ end }}
+                                        " alt="{{ $title }}">
+                                    </a>
+                                {{ end }}
+
+                            </div>
+                            
                         {{ end }}
-                        " alt="{{ $title }}"></a>
+                        <div class="m-gallery__end"></div>
+                    </div>
+
+                    <div class="m-gallery__fade"></div>
+
+                    {{ end }}
                 </div>
-                {{ end }}
 
-            {{ end }} 
+            {{ end }}
 
-        {{ end }}
         </div>
+
         {{ end }}
 
-        <div class="o-footer u-contain u-grid__footer">
+        <div class="o-footer u-grid__footer u-contain">
             {{ block "footer" . }}
             <div class="o-footer__text">
                 <p>benjamin@brinckmann.no</p>
