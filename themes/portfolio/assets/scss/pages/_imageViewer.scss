@@ -1,0 +1,45 @@
+.p-imageViewer {
+
+    &__nav {
+        position: absolute;
+        padding: $base;
+
+        img {
+            width: 2em;
+            opacity: 0.6;
+            cursor: pointer;
+        }
+    }
+
+    &__content {
+
+        
+    }
+
+    &__image {
+        background-color: lightgrey;
+        text-align: center;
+        // height: 100vh;
+
+        img {
+            max-height: 100vh;
+            max-width: 100%;
+            vertical-align: bottom;
+
+            @media screen and (min-width: $bp-medium) {
+                max-height: 90vh;
+                padding: $base 0;
+            }
+
+            @media screen and (min-width: $bp-large) {
+                max-height: 92vh;
+                padding: $larger 0;
+            }
+        }
+    }
+
+    &__meta {
+        padding: $base;
+        margin: 0;
+    }
+}

@@ -1,0 +1,20 @@
+<head>
+    <meta charset="utf-8">
+    {{ block "title" . }}
+    <title>
+        {{ .Site.Title }}
+    </title>
+    {{ end }}
+
+    {{ $options := (dict "targetPath" "styles.css" "outputStyle" "compressed") -}}
+    {{ $style := resources.Get "scss/main.scss" | resources.ToCSS $options | resources.Fingerprint -}}
+    <link href="{{ $style.RelPermalink }}" rel="stylesheet" media="all">
+</head>
+
+<div class="o-header u-grid__header u-contain">
+    <div class="logo"><a href="/"><img src="/logoMain.png" class="logo__main"></a></div>
+    <div class="m-nav o-imageViewer__nav">
+        <p>benjamin@brinckmann.no</p>
+        <p>+47 48 45 06 69</p>
+    </div>
+</div>

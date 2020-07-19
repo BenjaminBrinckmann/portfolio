@@ -1,22 +1,37 @@
+{{ define "header" }}
+    {{ partial "header__imageViewer" }}
+{{ end }}
+
 {{ define "main" }}
-<div class="u-grid o-main u-contain o-imageViewer">
+
+<div class="p-imageViewer__nav">
+    <img src="/close-svgrepo-com.svg" alt="close" onclick="history.back()">
+</div>
+
+<div class="p-imageViewer">
     
-    
-    {{ with .Resources.GetMatch "main.jpg" }}
-    {{ $image := . }}
-    {{ $resized := .Resize "1200x q75" }}
-    
-    <div class="o-imageViewer__image">
-        <img src="{{ $resized.RelPermalink }}" alt="{{ .Title }}">
-    </div>
-    {{ end }}
-    
-    <div class="o-imageViewer__meta">
-        <h2>{{ .Title }}</h2>
-        <time>{{ .Date.Format "02.01.2006" }}</time>
-        <p>{{ .Content }}</p>
+        
+    <div class="p-imageViewer__content">
+        
+        {{ with .Resources.GetMatch "main.jpg" }}
+        {{ $image := . }}
+        {{ $resized := .Resize "1200x q75" }}
+        
+        <div class="p-imageViewer__image">
+            <img src="{{ $resized.RelPermalink }}" alt="{{ .Title }}">
+        </div>
+        {{ end }}
+        
+        <div class="p-imageViewer__meta">
+            <h2>{{ .Title }}</h2>
+            <time>{{ .Date.Format "02.01.2006" }}</time>
+        </div>
+
     </div>
 
 </div>
 {{ end }}
 
+{{ define "footer" }}
+    {{ partial "footer__imageViewer" }}
+{{ end }}
