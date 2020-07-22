@@ -1,7 +1,7 @@
 ---
 title: "Team Rex"
 date: 2020-02-27
-categories: Digital Art
+categories: Digital
 tags:
     - sci fi
     - fantasi

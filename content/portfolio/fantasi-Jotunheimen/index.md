@@ -1,7 +1,7 @@
 ---
 title: Et møte med fjellet
 date: 2020-03-28
-categories: Digital Art
+categories: Digital
 tags:
     - fantasi
 span: 2h

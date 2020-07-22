@@ -1,7 +1,7 @@
 ---
 title: "Troll"
 date: 2020-05-05
-categories: Digital Art
+categories: Digital
 tags:
     - fantasi
 span: 2h

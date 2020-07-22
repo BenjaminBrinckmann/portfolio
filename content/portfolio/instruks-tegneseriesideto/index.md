@@ -1,7 +1,7 @@
 ---
 title: "Instruksjonstegneserie til DNT Friluftsskolen: side 2"
 date: 2020-01-29
-categories: Digital Art
+categories: Digital
 tags: 
     - instruksjon
 span: 2h

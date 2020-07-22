@@ -3,7 +3,7 @@ title: "A portrait to another world"
 description: 
 date: 2020-07-15
 span: 2h
-categories: Digital Art
+categories: Digital
 tags:
     - sci fi
     - fantasi

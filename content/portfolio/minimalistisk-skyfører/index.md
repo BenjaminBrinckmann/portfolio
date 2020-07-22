@@ -1,7 +1,7 @@
 ---
 title: "Minimalistisk skifører"
 date: 2019-11-27
-categories: Digital Art
+categories: Digital
 tags: 
     - minimalistisk
     - landskap

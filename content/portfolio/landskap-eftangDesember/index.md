@@ -1,7 +1,7 @@
 ---
 title: Solnedgang i desember
 date: 2020-04-06
-categories: Digital Art
+categories: Digital
 tags: 
     - landskap
 span: 3w
