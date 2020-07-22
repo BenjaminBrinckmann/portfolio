@@ -1,8 +1,9 @@
 ---
-title: "Instruksjonstegning om knuter til tarp: pålstikk"
+title: "Instruksjonshefte om tarp: pålstikk"
 date: 2017-08-01
-categories: Svart Hvit
+categories: Penn-tegning
 tags: 
     - instruksjon
 span: 2h
 ---
+Denne instruksjonstegningen er del av en hefte som forklarer teknikken om hvordan man setter opp en tarp og gir en oversikt over de mest praktiske knutene som hører til.

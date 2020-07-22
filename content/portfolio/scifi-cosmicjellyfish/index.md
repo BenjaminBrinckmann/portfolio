@@ -10,4 +10,5 @@ tags:
 span: 2h
 ---
 
-My submission to this month's Prokochallenge. The theme for this challenge was a mission in space 500 years from now in light of the recent SpaceX launch. With this piece I chose to focus on the human experience of wonder and the alienness of the void that we'll inevitably encounter during our prolonged presence in space. This domain is so utterly inhuman that we'll have to learn to relate differently to ourselves when physically confronted with the endless nothingless. In that sense, the astronaut that encounters this alien creature also encounters a reflection of what we have to become if we want to take a place amongst the stars.
+Dette digitale kunstverket var til en konkuranse over nettet. Temaet var menneskeheten i romverden om 500 år inspirert av den nylige SpaceX lanseringen i juni 2020.
+Jeg valgte å fokusere på det menneskelige elementet av ærefrykt for og forundring av vårt univers. Jeg har forsøkt å skape undring med dette bildet, ikke bare for romverden, men også for vår egen planet for de mest utenomjordiske former finner vi her i vårt eget hjem.

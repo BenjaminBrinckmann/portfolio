@@ -1,4 +1,7 @@
 .p-imageViewer {
+    height: 100vh;
+    background-color: var(--color-imageViewer);
+
 
     &__nav {
         position: absolute;
@@ -12,14 +15,14 @@
     }
 
     &__content {
-
+        
         
     }
 
     &__image {
-        background-color: lightgrey;
+        background-color: var(--color-imageViewer);
         text-align: center;
-        // height: 100vh;
+        
 
         img {
             max-height: 100vh;
@@ -39,7 +42,28 @@
     }
 
     &__meta {
-        padding: $base;
+        background-color: var(--color-imageViewer);
         margin: 0;
+        text-align: center;
+
+        &-text {
+            display: inline-block;
+            padding-top: 0;
+            padding-bottom: $base;
+            text-align: left;
+
+            h2 {
+                margin: $smallest;
+            }
+
+            &-time {
+                padding-left: $small;
+            }
+
+            p {
+                max-width: $bp-small;
+                margin: $small;
+            }
+        }
     }
 }

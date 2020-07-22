@@ -6,3 +6,4 @@ tags:
     - historisk
 span: 4
 ---
+Denne illustrasjonen ble brukt til en liten utstilling av et flint-verktøy fra Istiden i Nederland.

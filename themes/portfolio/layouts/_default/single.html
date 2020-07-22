@@ -23,8 +23,11 @@
         {{ end }}
         
         <div class="p-imageViewer__meta">
-            <h2>{{ .Title }}</h2>
-            <time>{{ .Date.Format "02.01.2006" }}</time>
+            <div class="p-imageViewer__meta-text">
+                <h2>{{ .Title }}</h2>
+                <time class="p-imageViewer__meta-text-time">{{ .Date.Format "02.01.2006" }}</time>
+                <p>{{ .Content }}</p>
+            </div>
         </div>
 
     </div>

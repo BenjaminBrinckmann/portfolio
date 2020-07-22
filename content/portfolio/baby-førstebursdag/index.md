@@ -1,8 +1,9 @@
 ---
 date: 2020-02-03
-title: "Første bursdags invitasjon"
-categories: Svart Hvit
+title: "Første bursdagsinvitasjon"
+categories: Penn-tegning
 tags: 
     - baby
 span: 4
 ---
+Dette var en illustrasjon som jeg lagde til min sønn's første bursdagsinvitasjon som dessverre ble kanselert på grunn av Koronakrisen.

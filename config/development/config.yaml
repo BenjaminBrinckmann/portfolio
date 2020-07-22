@@ -1,0 +1,3 @@
+baseURL: https://hetlankheet.eftangr.no
+buildDrafts: false
+publishDir: development
