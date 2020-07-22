@@ -12,7 +12,9 @@
         <div class="o-main u-grid__main u-contain">        
         
             {{ with .Site.GetPage "section" "portfolio" }}
-                <div class="o-listGalleries">                    
+                <div class="o-listGalleries">   
+                    
+                    <p class="o-listGalleries__merInfo">Trykk på bildet for mer info</p>
                     
                     {{ range .Pages.GroupByParam "categories" }}
                     <h1 class="o-listGalleries__category">{{ .Key }}</h1>
