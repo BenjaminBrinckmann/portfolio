@@ -7,4 +7,4 @@ tags:
     - landskap
 span: 4
 ---
-Dette digitale kunstverket er del av en serie som jeg holder på utvikle om minimalistiske fremstillinger av norsk natur og friluftsliv.
+Dette digitale kunstverket er del av en serie om minimalistiske fremstillinger av norsk natur og friluftsliv som jeg holder på å utvikle. 

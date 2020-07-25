@@ -14,7 +14,7 @@
             {{ with .Site.GetPage "section" "portfolio" }}
                 <div class="o-listGalleries">   
                     
-                    <p class="o-listGalleries__merInfo">Trykk på bildet for mer info</p>
+                    <h3 class="o-listGalleries__merInfo">Trykk på bildet for mer info</h3>
                     
                     {{ range .Pages.GroupByParam "categories" }}
                     <h1 class="o-listGalleries__category">{{ .Key }}</h1>

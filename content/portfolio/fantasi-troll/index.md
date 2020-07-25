@@ -6,4 +6,4 @@ tags:
     - fantasi
 span: 2h
 ---
-Dette digitale kunstverket er egentlig en skisse til en serie av kunstverk som jeg holder på med om norsk folklore. 
+Dette digitale kunstverket er egentlig en skisse til en serie av kunstverk om norsk folklore som jeg holder på å utvikle.

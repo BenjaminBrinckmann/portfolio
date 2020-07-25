@@ -9,4 +9,5 @@
     {{ $options := (dict "targetPath" "styles.css" "outputStyle" "compressed") -}}
     {{ $style := resources.Get "scss/main.scss" | resources.ToCSS $options | resources.Fingerprint -}}
     <link href="{{ $style.RelPermalink }}" rel="stylesheet" media="all">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>

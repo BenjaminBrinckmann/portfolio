@@ -6,4 +6,4 @@ tags:
     - instruksjon
 span: 3w
 ---
-Denne instruksjonstegningen er del av en hefte som forklarer teknikken om hvordan man setter opp en tarp og gir en oversikt over de mest praktiske knutene som hører til.
+Denne instruksjonstegningen er del av en hefte som forklarer teknikken av å sette opp en tarp og som gir en oversikt over de mest praktiske knutene som hører til.
