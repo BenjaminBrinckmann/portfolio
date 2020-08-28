@@ -13,4 +13,19 @@ $largest: 1.75em;
 
 :root {
     --color-imageViewer: #dee2e6;
+
+    --color-main-h: 213; // Hue
+    --color-main-s: 31%; // Saturation
+    --color-main-l: 50%; // Light
+
+    --color-alt-h: 213;
+    --color-alt-s: 44%;
+    --color-alt-l: 61%;
+
+    --color-alt-hsl: var(--color-alt-h), var(--color-alt-s), var(--color-alt-l);
+    --color-alt: hsl(var(--color-alt-hsl));
+
+    --color-main-hsl: var(--color-main-h), var(--color-main-s), var(--color-main-l);
+    --color-main: hsl(var(--color-main-hsl));
+
 }
