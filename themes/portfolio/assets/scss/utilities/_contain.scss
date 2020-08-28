@@ -1,6 +1,8 @@
 .u-contain {
     max-width: $bp-full;
-    width: 100%;
+    
     margin-left: auto;
     margin-right: auto;
+    padding-left: $base;
+    padding-right: $base;
 }

@@ -1,5 +1,6 @@
 .o-header {
     text-align: center;
+    padding-top: $base;
 
     @media screen and (min-width: $bp-medium) {
         text-align: left;
