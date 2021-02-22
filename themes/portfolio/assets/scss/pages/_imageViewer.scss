@@ -4,10 +4,10 @@
 
 
     &__nav {
-        position: absolute;
+        background-color: var(--color-imageViewer);
         padding: $base;
 
-        img {
+        &-close {
             width: 2em;
             opacity: 0.6;
             cursor: pointer;
