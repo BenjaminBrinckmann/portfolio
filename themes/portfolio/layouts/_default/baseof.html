@@ -26,13 +26,11 @@
                 {{ range .Pages }}
                     {{ $singleURL := .RelPermalink }}
                     {{ $title := .Title }}
-                    {{ $span := .Params.span }}
 
                     <div class="m-gallery__item">
 
                         {{ with .Resources.GetMatch "main.jpg" }}
                         {{ $image := . }}
-                        {{ $resized := .Resize "650x q75" }}
                         {{ $resizedXL := .Resize "1054x q65" }}
 
                         <a href="{{ $singleURL }}"><img src="{{ $resizedXL.RelPermalink }}" alt="{{ $title }}"></a>

@@ -16,7 +16,6 @@
     }    
     
     &__item {
-        z-index: -100;
         scroll-snap-align: center;
         
         img {
@@ -44,39 +43,3 @@
     }
     
 }
-
-
-
-
-    // @media screen and (min-width: $bp-small) {
-    //     display: grid;
-    //     grid-auto-flow: column;
-    //     grid-auto-columns: auto;
-    //     grid-gap: $smallest;
-    //     max-width: 98vw;
-    //     overflow: auto;
-    //     scroll-snap-type: x mandatory;
-
-    //     &__item {
-    //         scroll-snap-align: center;
-    //         display: inline-block;
-
-    //         img {
-    //             max-height: 20em;
-    //             max-width: none;
-    //         }
-    //     }
-        
-    //     &__fade {
-    //         position: absolute;
-    //         right: 0;
-    //         width: 10em;
-    //         height: 20em;
-    //         background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-    //     }
-
-    //     &__end {
-    //         width: 10em;
-    //         height: 20em;
-    //     }
-    // }

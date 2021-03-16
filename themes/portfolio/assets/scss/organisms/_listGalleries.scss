@@ -12,6 +12,7 @@
         color: grey;
         display: block;
         text-align: center;
+
         @media screen and (min-width: $bp-small) {
             display: none;
         }
@@ -27,7 +28,7 @@
         @media screen and (min-width: $bp-small) {
             text-align: left;
             margin-top: 2em;
-        margin-bottom: 1em;
+            margin-bottom: 1em;
         }
     }
 }

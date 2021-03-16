@@ -6,4 +6,4 @@ echo "Deleting source directory …"
 sudo rm -R /$SOURCE
 # git checkout master
 hugo --environment production
-rsync -rtzz --progress --del $SOURCE $DESTINATION
+rsync -rtzzP --del $SOURCE $DESTINATION
