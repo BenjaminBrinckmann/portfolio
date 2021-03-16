@@ -2,62 +2,56 @@
 <html>
 
 {{ block "header" . }}
-    {{ partial "header" }}
+{{ partial "header" }}
 {{ end }}
 
 <body>
     {{ block "main" . }}
     <div class="u-grid">
-    
-        <div class="o-main u-grid__main u-contain">        
-        
+
+        <div class="o-main u-grid__main u-contain">
+
             {{ with .Site.GetPage "section" "portfolio" }}
-                <div class="o-listGalleries">   
-                    
-                    <h3 class="o-listGalleries__merInfo">Trykk på bildet for mer info</h3>
-                    
-                    {{ range .Pages.GroupByParam "categories" }}
-                    <h1 class="o-listGalleries__category">{{ .Key }}</h1>
-                    <div class="m-gallery">
-                        {{ range .Pages }}
-                            {{ $singleURL := .RelPermalink }}
-                            {{ $title := .Title }}
-                            {{ $span := .Params.span }}
-                            
-                                <div class="m-gallery__item{{ with $span }} -span-{{.}}{{end}}">
-                                    {{/*  {{ .Title }}
-                                    {{ .Content }}  */}}
+            <div class="o-listGalleries">
 
-                                    {{ with .Resources.GetMatch "main.jpg" }}
-                                        {{ $image := . }}
-                                        {{ $resized := .Resize "650x q75" }}
-                                        {{ $resizedXL := .Resize "1054x q65" }}
-
-                                        <a href="{{ $singleURL }}"><img src="
-                                            {{- if eq $span 4 }}
-                                            {{ $resizedXL.RelPermalink }}
-                                            {{ else }}
-                                            {{ $resized.RelPermalink }}
-                                            {{ end }}
-                                            " alt="{{ $title }}">
-                                        </a>
-                                    {{ end }}
-                                </div>                            
-                        {{ end }}
-                        <div class="m-gallery__end"></div>                       
-                        <div class="m-gallery__fade"></div>
-                    </div>
-                    {{ end }}    
+                <h3 class="o-listGalleries__merInfo1">Swipe til venstre og trykk på bildene for mer info</h3>
+                <h3 class="o-listGalleries__merInfo">Trykk på bildene for mer info</h3>
                 
+
+                {{ range .Pages.GroupByParam "categories" }}
+                <h1 class="o-listGalleries__category">{{ .Key }}</h1>
+
+
+                <div class="m-gallery">
+                {{ range .Pages }}
+                    {{ $singleURL := .RelPermalink }}
+                    {{ $title := .Title }}
+                    {{ $span := .Params.span }}
+
+                    <div class="m-gallery__item">
+
+                        {{ with .Resources.GetMatch "main.jpg" }}
+                        {{ $image := . }}
+                        {{ $resized := .Resize "650x q75" }}
+                        {{ $resizedXL := .Resize "1054x q65" }}
+
+                        <a href="{{ $singleURL }}"><img src="{{ $resizedXL.RelPermalink }}" alt="{{ $title }}"></a>
+                        {{ end }}
+                    </div>
+                {{ end }}
                 </div>
+                {{ end }}
+
+            </div>
             {{ end }}
         </div>
     </div>
     {{ end }}
 
     {{ block "footer" . }}
-        {{ partial "footer" }}
+    {{ partial "footer" }}
     {{ end }}
 
 </body>
+
 </html>

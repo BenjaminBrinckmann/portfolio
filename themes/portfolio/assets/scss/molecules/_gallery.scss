@@ -1,38 +1,82 @@
 .m-gallery {
-    &__item {
-        img {
-            max-width: 100%;
-        }
-    }
-
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    gap: 10vw;
+    align-items: center;
+    scroll-snap-type: x mandatory;
+    padding-bottom: .4em;
+    
     @media screen and (min-width: $bp-small) {
-        display: grid;
-        grid-auto-flow: column;
-        grid-auto-columns: auto;
-        grid-gap: $smallest;
-        max-width: 98vw;
-        overflow: auto;
+        padding-bottom: 1em;
+        gap: 10vw;
+        mask-image: linear-gradient(to right, transparent 0, black 5%, black 95%, transparent 100%);
+    }    
+    
+    &__item {
+        z-index: -100;
+        scroll-snap-align: center;
+        
+        img {
+            box-shadow: 0 .3em .6em #0003;
+            max-width: 80vw;
+            @media screen and (min-width: $bp-small){ 
+                max-height: 40vh;
+            }
 
-        &__item {
-            display: inline-block;
+        }
 
-            img {
-                max-height: 20em;
-                max-width: none;
+        &:first-child {
+            padding-left: 5vw;
+            @media screen and (min-width: $bp-small) {
+            padding-left: 10vw;
             }
         }
-        
-        &__fade {
-            position: absolute;
-            right: 0;
-            width: 10em;
-            height: 20em;
-            background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }
 
-        &__end {
-            width: 10em;
-            height: 20em;
+        &:last-child {
+            padding-right: 5vw;
+            @media screen and (min-width: $bp-small) {
+            padding-right: 10vw;
+            }
         }
     }
+    
 }
+
+
+
+
+    // @media screen and (min-width: $bp-small) {
+    //     display: grid;
+    //     grid-auto-flow: column;
+    //     grid-auto-columns: auto;
+    //     grid-gap: $smallest;
+    //     max-width: 98vw;
+    //     overflow: auto;
+    //     scroll-snap-type: x mandatory;
+
+    //     &__item {
+    //         scroll-snap-align: center;
+    //         display: inline-block;
+
+    //         img {
+    //             max-height: 20em;
+    //             max-width: none;
+    //         }
+    //     }
+        
+    //     &__fade {
+    //         position: absolute;
+    //         right: 0;
+    //         width: 10em;
+    //         height: 20em;
+    //         background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+    //     }
+
+    //     &__end {
+    //         width: 10em;
+    //         height: 20em;
+    //     }
+    // }
