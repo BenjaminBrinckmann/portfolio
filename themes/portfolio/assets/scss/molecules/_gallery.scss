@@ -4,14 +4,13 @@
     overflow-x: auto;
     overflow-y: hidden;
     display: flex;
-    gap: 10vw;
+    // gap: 10vw;
     align-items: center;
     scroll-snap-type: x mandatory;
     padding-bottom: .4em;
     
     @media screen and (min-width: $bp-small) {
         padding-bottom: 1em;
-        gap: 10vw;
         mask-image: linear-gradient(to right, transparent 0, black 5%, black 95%, transparent 100%);
     }    
     
@@ -20,6 +19,8 @@
         
         img {
             box-shadow: 0 .3em .6em #0003;
+            margin-left: 5vw;
+            margin-right: 5vw;
             max-width: 80vw;
             @media screen and (min-width: $bp-small){ 
                 max-height: 40vh;
@@ -28,16 +29,15 @@
         }
 
         &:first-child {
-            padding-left: 5vw;
+            // padding-left: 5vw;
             @media screen and (min-width: $bp-small) {
-            padding-left: 10vw;
+            padding-left: 5vw;
             }
         }
 
         &:last-child {
-            padding-right: 5vw;
             @media screen and (min-width: $bp-small) {
-            padding-right: 10vw;
+            padding-right: 5vw;
             }
         }
     }
