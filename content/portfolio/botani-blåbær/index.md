@@ -1,9 +1,9 @@
 ---
 date: 2018-10-09
-title: Blåbær
-categories: Penn-tegning
+title: Blueberry
+categories: Botanic illustrations
 tags:
     - botani  
-span: 2h    
+    
 ---
-Denne illustrasjonen er del av en serie med botaniske illustrasjoner. Denne spesifike illustrasjon er til informasjonsskilt for en skogshage i Haaksbergen, Nederland.
+This illustration is part of a series of botanical illustrations. This one was made to illustrate an information-sign for a forest garden in the Netherlands.

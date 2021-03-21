@@ -1,9 +1,9 @@
 ---
-title: Solnedgang i desember
+title: Sunset in december
 date: 2020-04-06
-categories: Digital
+categories: Miscellaneous
 tags: 
     - landskap
-span: 3w
+
 ---
-Dette digitale kunstverket var en øvelse i konstrast og belysning. Basert på et bilde fra Eftang, Larvik.
+A digital artwork made to practice lighting and contrast. Based of a picture from Eftang, Larvik.

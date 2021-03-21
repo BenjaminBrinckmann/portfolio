@@ -1,9 +1,9 @@
 ---
 date: 2020-03-16
-title: Møte i dypet
-categories: Digital
+title: Meeting in the deep
+categories: Animal illustrations
 tags:
   - dyr
-span: 3w
+
 ---
-Et digitalt kunstverk som avbilder møte med en knøllhval. Havet har til alle tider fasinert meg og jeg ville gjerne lage et kunstverk som uttrykket denne fasinasjonen. 
+A digital artwork of a humpback whale. The purpose of this picture was to depict my fascination and awe for the ocean.

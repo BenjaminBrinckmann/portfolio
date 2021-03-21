@@ -1,11 +1,11 @@
 ---
-title: "Et landskap av krystaller"
+title: "Crystal landscapes"
 date: 2020-06-09
-span: 2h
-categories: Penn-tegning
+
+categories: Scifi/fantasy art
 tags:
     - sci fi
     - fantasi
-span: 2h
+
 ---
-Tegneserier har vært en stor påvirkning i hele mitt oppvekst og jeg drømmer fortsatt om å jobbe mer med tegneserier. Denne skissen er til en tegneserien jeg ønsker å skape selv.
+A sketch for a comic book that I am working on in my sparetime.

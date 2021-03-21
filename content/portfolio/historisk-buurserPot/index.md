@@ -1,10 +1,11 @@
 ---
-title: "Historisk nederlandsk kanalbåt: De Buurser Pot"
+title: "Dutch canal boat: De Buurser Pot"
 date: 2020-04-19
 span:
-categories: Digital
+categories: Historical illustrations
 tags: 
     - historisk
-span: 3w
+
 ---
-Dette digitale kunstverket var en reproduksjon av et eksisterende fotografi og var ment til en nettside hvor det ble opplyst om denne historiske båten. Denne nettsiden er en pågående prosjekt som jeg er involvert i og vi bestemte oss heller for å bruke de eksisterende bildene.
+A digital artwork of a traditional dutch canal boat called a "Pot". It was very shallow boat that could traverse the rivers and creeks between the Netherlands and Germany. 
+It was meant as part of a website advertising touristtrips with a reconstructed "Pot", but ended up with using a photograph instead. 

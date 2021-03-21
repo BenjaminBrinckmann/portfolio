@@ -1,9 +1,9 @@
 ---
-title: "Stakkers Ötzi..."
-date: 2020-01-19
-categories: Penn-tegning
+title: "Pubskilt Hanzebrouwerij de Kroef"
+date: 2021-03-21
+span:
+categories: Historical illustrations
 tags: 
     - historisk
-span: 2h
 ---
-Prehistorien er et tema jeg har et stort engasjement for og oppdagelsen av Ötzi, funnet drept i Alpene, har vært en fasinerende blikk i bronsealderen. Med denne skissen har jeg forsøkt å fremstille hans siste øyeblikk så historisk korrekt som jeg kunne. 
+A digital illustration of Ötzi the iceman, the man who was murdered 5300 years in the Ötzal-alps and mummified by the snow and ice. The drawing is inspired by the famous sculpture made by the Kennis brothers.

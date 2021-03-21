@@ -1,10 +1,10 @@
 ---
 title: "Team Rex"
 date: 2020-02-27
-categories: Digital
+categories: Scifi/fantasy art
 tags:
     - sci fi
     - fantasi
-span: 3w
+
 ---
-Denne digitale illustrasjonen var til en internet-konkuranse hvor temaet var et Monster-kolloseum. Designet måtte innholdet et monster med tekniske elementer. Jeg har vært fasinert av dinosaur så lenge jeg kan huske og derfor tenkte jeg at det finnes vell ikke noe mer imponerende enn en Tyranosaurus-Rex. Men jeg måtte kompensere litt for de bitte små armene...
+A digital artwork as an entry for an online competition. The theme being "Monster battles". The design had to incorporate organic and mechanical elements. I have always been fascinated by dinosaurs and I still find the Tyrannosaurus Rex to be one the most awesome creatures. The only thing I had to compensate for were his small arms, which I did, using giant robotic claws. In the end I managed to capture my boyhood fascinations quite well.

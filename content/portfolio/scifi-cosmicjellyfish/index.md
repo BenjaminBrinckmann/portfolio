@@ -2,13 +2,12 @@
 title: "A portrait to another world"
 description: 
 date: 2020-07-15
-span: 2h
-categories: Digital
+
+categories: Scifi/fantasy art
 tags:
     - sci fi
     - fantasi
-span: 2h
----
 
-Dette digitale kunstverket var til en konkuranse over nettet. Temaet var menneskeheten i romverden om 500 år inspirert av den nylige SpaceX lanseringen i juni 2020.
-Jeg valgte å fokusere på det menneskelige elementet av ærefrykt for og forundring av vårt univers. Jeg har forsøkt å skape undring med dette bildet, ikke bare for romverden, men også for vår egen planet for de mest utenomjordiske former finner vi her i vårt eget hjem.
+---
+A digital artwork as an entry for an online competition. The theme was humanity 500 years into future as inspired by the recent SpaceX launched. 
+I chose to focus on the human emotion of awe and wonder for our universe. I tried to evoke curiosity through this image, not only for outer space, but also for our own planet and the alien lifeforms that we find here on our home planet.

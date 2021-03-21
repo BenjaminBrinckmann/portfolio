@@ -14,12 +14,12 @@
             {{ with .Site.GetPage "section" "portfolio" }}
             <div class="o-listGalleries">
 
-                <h3 class="o-listGalleries__merInfo">Trykk på bildene for mer info</h3>
+                <h3 class="o-listGalleries__merInfo">Click the images for more information</h3>
                 
                 
                 {{ range .Pages.GroupByParam "categories" }}
                 <h1 class="o-listGalleries__category">{{ .Key }}</h1>
-                <h4 class="o-listGalleries__merInfo1">Swipe for å se flere bilder</h3>
+                <h4 class="o-listGalleries__merInfo1">Swipe to see more pictures</h3>
 
 
                 <div class="m-gallery">

@@ -1,9 +1,8 @@
 ---
 date: 2020-07-29
-title: Bie i ringblomst
-categories: Aquarel
+title: Bee in Marigold
+categories: Animal illustrations
 tags: 
     - dyr
-span: 2
 ---
-Denne illustrasjonen var til min mors bursdag som er en entusiatisk birøkter. Illustrasjonen ble gjort med frihånd siden jeg hadde kun noen få timer til å lage den.
+Illustration for a birthday card. Made with pen and watercolor.

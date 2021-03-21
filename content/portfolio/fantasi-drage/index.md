@@ -1,9 +1,8 @@
 ---
-title: "Konsept-tegning: Drage"
+title: "Student project: Dragon"
 date: 2017-05-01
-categories: Penn-tegning
+categories: Scifi/fantasy art
 tags:
     - fantasi
-span: 3w
 ---
-Denne konsept-tegningen var til et studentprosjekt av fire IT-studenter fra Universitetet i Sørøst-Norge. De produserte et prototype til et dataspill og jeg hjelp dem med den grafiske utformingen.
+Concept art that was part of a student project at Universitetet i Sørøst-Norge. The project was led by four IT students who were building a prototype for a game as part of their examination project. They asked me to help them with the artwork and concept design.

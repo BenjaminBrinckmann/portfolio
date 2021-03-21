@@ -1,8 +1,8 @@
 ---
 title: "Logodesign: Sandefjord fekteklubb"
 date: 2019-09-09
-categories: Penn-tegning
+categories: Design
 tags: 
     - logo
 ---
-Et nytt logo for den lokale fekteklubben. Formålet med designet var å fremheve den reflektive aspekten i fekte-idretten. Gjennomført digitalt.
+New logo for my local fencing club. The point behind this design is to depict the reflective aspect of the sport that is often neglected.

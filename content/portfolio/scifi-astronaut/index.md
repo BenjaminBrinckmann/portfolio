@@ -1,12 +1,12 @@
 ---
-title: "Astronaut i tegneserie-stil"
+title: "Astronaut in comicbook-style"
 description: 
 date: 2020-03-11
 span: 2
-categories: Digital
+categories: Scifi/fantasy art
 tags:
   - sci fi
   - fantasi
-span: 2h
+
 ---
-Dette verk i tegneserie-stil er basert på en tidligere skisse hvor fargene har blitt lagt til digitalt.
+A digital artwork based of an older sketch.

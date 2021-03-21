@@ -1,9 +1,9 @@
 ---
-title: "Sneilerytteren"
+title: "Snailrider"
 date: 2021-02-20
-categories: Aquarel
+categories: Scifi/fantasy art
 tags:
     - fantasi
-span: 2h
+
 ---
-Et spontant verk i penn og vannmaling.
+A spontaneous artwork made with pen and watercolor.

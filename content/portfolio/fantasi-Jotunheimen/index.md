@@ -1,9 +1,9 @@
 ---
-title: Et møte med fjellet
+title: Meeting the mountain
 date: 2020-03-28
-categories: Digital
+categories: Scifi/fantasy art
 tags:
     - fantasi
-span: 2h
+
 ---
-Dette digitale kunstverket har vært inspirert av mine fjellvandringer og norsk folklore. Kittelsen har vært en viktig inspirasjonskilde for denne type kunst som jeg produserer. 
+This image was inspired by the feeling of awe that I experienced during my winter expeditions in the mountains of Norway. Digital artwork.

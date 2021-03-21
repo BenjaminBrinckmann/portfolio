@@ -1,9 +1,9 @@
 ---
-title: "Instruksjonstegneserie til DNT Friluftsskolen: side 2"
+title: "Instruction comic for DNT: page 2"
 date: 2020-01-29
-categories: Digital
+categories: Book illustration
 tags: 
     - instruksjon
-span: 2h
+
 ---
-Denne tegneserie var til DNT Friluftskolen i Vestfold. Friluftsskolen er til barn mellom 10 og 13 år og foregår i alle årstider. Det var mye informasjon som barna måtte ta til seg for å kunne forberede seg til friluftsliv om vinteren og med det formålet produserte jeg denne tosidige tegneserien.
+Comic made for the Outdoorlife-school(friluftsskolen), DNT i Vestfold. They organize educational camps where they teach norwegian ourdoorlife to children, ages 10 to 13. This comic was meant to help them prepare for the winter activities. Made digitally.

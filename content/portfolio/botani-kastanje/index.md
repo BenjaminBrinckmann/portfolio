@@ -1,9 +1,9 @@
 ---
 date: 2018-11-09
-title: Kastanje
-categories: Aquarel
+title: Chestnut
+categories: Botanic illustrations
 tags:
     - botani
-span: 3w
+
 ---
-Denne botaniske illustrasjonen blir brukt til informasjonsskilt om frukttrær og busker. Dette er til en pågående prosjekt om å etablere en skogshage i Haaksbergen, Nederland.
+This illustration is part of a series of botanical illustrations. This one was made to illustrate an information-sign for a forest garden in Haaksbergen, the Netherlands.

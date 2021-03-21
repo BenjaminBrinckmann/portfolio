@@ -1,8 +1,8 @@
 ---
-title: "Gjennom mangrove jungelen"
+title: "Traversing the mangrove swamps"
 date: 2021-03-03
-categories: Digital
+categories: Scifi/fantasy art
 tags:
     - fantasi
 ---
-Et digitalt kunstverk som er ment som et banner i en nettside. Poenget med motivet er å få fram det eventyrlig uttrykk som jeg alltid prøver å nå gjennom mine tegninger. Bildet er veldig lang og det egner seg egentlig ikke så godt for mobilvisningen.
+This digital artwork was made as a web-banner. The idea behind the motive is to depict the adventerous experiences that I like to illustrate and that largely define me as a person.

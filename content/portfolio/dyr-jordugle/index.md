@@ -1,9 +1,9 @@
 ---
-title: "Jordugle"
+title: "Short eared owl"
 date: 2021-02-18
-categories: Digital
+categories: Animal illustrations
 tags:
     - dyr
-span: 3w
+
 ---
-Et digitalt maling av en jordugle.
+Digital artwork of a female short eared owl.

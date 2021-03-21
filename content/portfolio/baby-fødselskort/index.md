@@ -1,9 +1,9 @@
 ---
 date: 2019-08-14
-title: "Fødselskort"
-categories: Aquarel
+title: "birth announcement card"
+categories: Miscellaneous
 tags: 
     - baby
-span: 3w
+
 ---
-Dette er en illustrasjon som jeg lagde til min sønn's fødselskort. 
+Illustration for my son's birth announcement card. Made with watercolor.

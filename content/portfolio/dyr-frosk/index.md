@@ -1,9 +1,9 @@
 ---
 date: 2019-04-26
-title: Frosk
-categories: Aquarel
+title: Frog
+categories: Animal illustrations
 tags: 
     - dyr
 span: 4
 ---
-Denne illustrasjonen var til en bursdagkort i 2019.
+Illustration for a birthday card. Made with pen and watercolor.
