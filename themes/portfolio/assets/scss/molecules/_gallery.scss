@@ -4,10 +4,13 @@
     overflow-x: auto;
     overflow-y: hidden;
     display: flex;
-    // gap: 10vw;
     align-items: center;
     scroll-snap-type: x mandatory;
     padding-bottom: .4em;
+
+    @media screen and (max-width: $bp-small){
+        scrollbar-width: none;
+    }    
     
     @media screen and (min-width: $bp-small) {
         padding-bottom: 1em;

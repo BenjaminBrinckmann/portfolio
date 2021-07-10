@@ -1,7 +1,7 @@
 ---
 date: 2018-10-09
 title: Potato
-categories: Botanic illustrations
+categories: Botanical illustrations
 tags:
     - botani
 ---

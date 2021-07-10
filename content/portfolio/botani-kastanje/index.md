@@ -1,7 +1,7 @@
 ---
 date: 2018-11-09
 title: Chestnut
-categories: Botanic illustrations
+categories: Botanical illustrations
 tags:
     - botani
 

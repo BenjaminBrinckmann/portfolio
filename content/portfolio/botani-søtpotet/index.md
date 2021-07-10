@@ -1,7 +1,7 @@
 ---
 date: 2018-10-09
 title: Sweet potato
-categories: Botanic illustrations
+categories: Botanical illustrations
 tags:
     - botani
 

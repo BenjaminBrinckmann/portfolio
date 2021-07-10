@@ -1,7 +1,7 @@
 ---
 date: 2020-11-30
 title: "Flowerbed and pollinators"
-categories: Botanic illustrations
+categories: Botanical illustrations
 tags:
     - botani  
     

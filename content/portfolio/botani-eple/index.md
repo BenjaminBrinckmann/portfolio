@@ -1,7 +1,7 @@
 ---
 date: 2018-11-09
 title: Apple
-categories: Botanic illustrations
+categories: Botanical illustrations
 tags:
     - botani
 

@@ -1,5 +1,5 @@
 ---
-title: "Pubskilt Hanzebrouwerij de Kroef"
+title: "Ötzi"
 date: 2021-03-21
 span:
 categories: Historical illustrations

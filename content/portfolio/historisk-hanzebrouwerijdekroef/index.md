@@ -1,5 +1,5 @@
 ---
-title: "Pubskilt Hanzebrouwerij de Kroef"
+title: "Pubsign Hanzebrouwerij de Kroef"
 date: 2021-02-28
 span:
 categories: Design

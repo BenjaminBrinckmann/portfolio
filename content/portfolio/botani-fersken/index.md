@@ -1,7 +1,7 @@
 ---
 date: 2018-11-09
 title: Peach
-categories: Botanic illustrations
+categories: Botanical illustrations
 tags:
     - botani
 
