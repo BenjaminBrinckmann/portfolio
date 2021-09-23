@@ -66,4 +66,17 @@
             }
         }
     }
+
+    &__copyright {
+        
+        background-color: var(--color-imageViewer);
+        text-align: center;
+
+        p {
+        margin: 0;
+        padding-top: 0;
+        padding-bottom: $largest;
+        background-color: var(--color-imageViewer);
+        }
+    }
 }
