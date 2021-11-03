@@ -1,7 +1,7 @@
 ---
 title: "Student project: Stonebiter"
 date: 2017-04-27
-categories: Scifi/fantasy art
+categories: Sketchbook
 tags:
     - fantasi
 ---

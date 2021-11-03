@@ -1,5 +1,5 @@
 ---
-title: 
+title: Corona
 date: 2021-04-06
 categories: Scifi/fantasy art
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "Friluftsliv voor de lage landen: mountain-troll in the snow"
 date: 2020-10-21
-categories: Book illustration
+categories: Sketchbook
 tags: 
     - fantasy
 

@@ -1,7 +1,7 @@
 ---
 title: "Concept art: Stone troll"
 date: 2017-05-01
-categories: Scifi/fantasy art
+categories: Sketchbook
 tags:
     - fantasi
 

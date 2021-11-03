@@ -1,5 +1,5 @@
 ---
-title: "Crystal landscapes 2"
+title: "Crystal landscapes"
 date: 2021-06-02
 
 categories: Scifi/fantasy art

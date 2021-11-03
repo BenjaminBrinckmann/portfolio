@@ -1,7 +1,7 @@
 ---
 title: "Friluftsliv in de lage landen: Troll underneath a tree"
 date: 2020-10-16
-categories: Book illustration
+categories: Sketchbook
 tags: 
     - fantasy
 

@@ -2,7 +2,7 @@
 title: "Crystal landscapes"
 date: 2020-06-09
 
-categories: Scifi/fantasy art
+categories: Sketchbook
 tags:
     - sci fi
     - fantasi

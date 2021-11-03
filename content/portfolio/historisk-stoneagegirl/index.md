@@ -2,7 +2,7 @@
 title: Stone age girl
 date: 2021-05-27
 span:
-categories: Historical illustrations
+categories: Sketchbook
 tags: 
     - historisk
 ---

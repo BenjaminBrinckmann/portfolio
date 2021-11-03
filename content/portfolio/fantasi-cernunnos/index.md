@@ -1,7 +1,7 @@
 ---
 title: "Student project: Cernunnos"
 date: 2017-04-29
-categories: Scifi/fantasy art
+categories: Sketchbook
 tags:
     - fantasi
 ---

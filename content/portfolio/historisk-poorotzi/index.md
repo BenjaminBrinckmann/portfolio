@@ -1,7 +1,7 @@
 ---
 title: "Poor Ötzi..."
 date: 2020-01-19
-categories: Historical illustrations
+categories: Sketchbook
 tags: 
     - historisk
 
